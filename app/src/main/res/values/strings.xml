@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Sembakota</string>
+    <string name="deskripsi_satu">Informasi Harga Sembako  di Kota Makassar</string>
+    <string name="title_activity_lihat_komoditi">lihatKomoditi</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

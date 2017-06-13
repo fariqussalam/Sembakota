@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    app:layout_collapseParallaxMultiplier="1.0">
+
+
+    <TextView
+        android:id="@+id/tanggal_komoditi_detail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:text="09 Mei 2017"
+        android:textAllCaps="false"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/mdtp_light_gray"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/harga_komoditi_detail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:paddingEnd="20dp"
+        android:paddingRight="20dp"
+        android:text="9.400"
+        android:textAlignment="textEnd"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FF000000"
+        android:textSize="16sp" />
+
+</LinearLayout>

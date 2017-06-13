@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    app:layout_collapseParallaxMultiplier="1.0">
+
+    <TextView
+        android:id="@+id/nama_komoditi_termurah"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:text="Beras Kualitas Bawah II"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FF000000"
+        android:textSize="14sp" />
+
+
+    <TextView
+        android:id="@+id/satuan_komoditi_termurah"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:text="Kg"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FF000000"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/harga_komoditi_termurah"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:text="9.400"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FF000000"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/nama_pasar_termurah"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:text="Daya"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FF000000"
+        android:textSize="14sp" />
+
+</LinearLayout>
